@@ -1,11 +1,11 @@
-package com.rag.lox;
+package lox;
+
+import static lox.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static com.rag.lox.TokenType.*;
 
 class Scanner {
     private final String source;

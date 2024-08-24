@@ -1,4 +1,4 @@
-package com.rag.lox;
+package lox;
 
 enum TokenType {
     // Single-character tokens.
